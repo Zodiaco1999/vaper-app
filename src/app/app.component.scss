@@ -1,0 +1,130 @@
+@import '../styles.scss';
+
+nav {
+  padding: 8px 0;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.img-h2 {
+  position: absolute;
+  left: 80px;
+}
+
+.main-content {
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.btn-menu, .btn-profile {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-menu {
+  margin-left: 8px;
+}
+
+.btn-profile {
+  margin-right: 8px;
+}
+
+.header {
+  text-align: center;
+  padding: 16px;
+  background-color: transparent;
+
+  .header-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  h1 {
+    color: $accent-color;
+    font-size: 1.5rem;
+    margin-top: 12px;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+}
+
+.info-section {
+  padding: 16px;
+
+  h2 {
+    color: $accent-color;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid $text-color-gray;
+
+    .info-icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 16px;
+    }
+
+    .info-text {
+      h3 {
+        color: $secondary-color;
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      p {
+        color: $text-color;
+        font-size: 0.9rem;
+        margin: 4px 0 0;
+      }
+    }
+  }
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $accent-color;
+  padding: 8px 0;
+  z-index: 10;
+  position: fixed; /* Fija el elemento */
+  bottom: 0; /* Lo coloca en la parte inferior */
+  left: 0;
+  width: 100%; /* Se asegura de que ocupe todo el ancho */
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $text-color-gray;
+    text-decoration: none;
+    font-size: 0.8rem;
+
+    img {
+      width: 24px;
+      height: 24px;
+      margin-bottom: 4px;
+    }
+
+    span {
+      color: $text-color-gray;
+    }
+  }
+}
