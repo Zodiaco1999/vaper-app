@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1731352241301,
+  "timestamp": 1731353888386,
   "index": "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "https://Zodiaco1999.github.io/vaper-app/favicon.ico",
         "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
         "https://Zodiaco1999.github.io/vaper-app/index.html",
-        "https://Zodiaco1999.github.io/vaper-app/main-QUEO2KND.js",
+        "https://Zodiaco1999.github.io/vaper-app/main-PPZGIDKA.js",
         "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest",
         "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js",
         "https://Zodiaco1999.github.io/vaper-app/styles-XSYX46KI.css"
@@ -53,6 +53,7 @@
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono2.svg",
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono3.svg",
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono4.svg",
+        "https://Zodiaco1999.github.io/vaper-app/assets/svg/install-mobile.svg",
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/leading-icon.svg",
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/logo-vaper-app.svg",
         "https://Zodiaco1999.github.io/vaper-app/assets/svg/logo-vaper-app_H2.svg",
@@ -94,6 +95,7 @@
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono2.svg": "c44276d6ef92121586c73458a7466a94c0ce9f5e",
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono3.svg": "b1ae63a3000013b1e81191f41cfc3db0aeaaf806",
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/icono4.svg": "896350ce1ba6aac5c8a813ce228df0ed16fb82fb",
+    "https://Zodiaco1999.github.io/vaper-app/assets/svg/install-mobile.svg": "7cda1ef0f78a8adaf1a7eef5ae6586000095f293",
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/leading-icon.svg": "b7c765429ec1c8f0f992a2f9377b4ed00ee6a960",
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/logo-vaper-app.svg": "7cfa0abbfaa8b4307c1a411217e71732d1c32bec",
     "https://Zodiaco1999.github.io/vaper-app/assets/svg/logo-vaper-app_H2.svg": "6fcc6b7c260e45599941e087b5f16ed36222ca40",
@@ -106,9 +108,9 @@
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "8ed141c1b146d652d18c4f02387862d08b9bc529",
-    "https://Zodiaco1999.github.io/vaper-app/index.html": "474b9c10927b819a4929899cb60181defdf5d00b",
-    "https://Zodiaco1999.github.io/vaper-app/main-QUEO2KND.js": "8e3558cf31b6102b57c440c3815c40cb1f1bcb1d",
+    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "ac5d2135491bb5366c1e18ba146726a56f504e25",
+    "https://Zodiaco1999.github.io/vaper-app/index.html": "35eea7504ad414449cc4f3bb0157de2aa6b906b9",
+    "https://Zodiaco1999.github.io/vaper-app/main-PPZGIDKA.js": "6b5d69185c6dd971030928c344ace31d3116b854",
     "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest": "f72ffc816c86152c7fbd7e01cf0c2ae8f04b3bf1",
     "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "https://Zodiaco1999.github.io/vaper-app/styles-XSYX46KI.css": "70106afeab6dd3198ddc4be78795a37baa01c8fd"
