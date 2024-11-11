@@ -1,4 +1,28 @@
+$secondary-color: #00A6EA;
+
 a {
   display: inline;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-install {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px auto 80px;
+  width: 60%;
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
 }
