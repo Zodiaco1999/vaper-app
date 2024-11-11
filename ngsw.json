@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1731301057553,
+  "timestamp": 1731352241301,
   "index": "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
   "assetGroups": [
     {
@@ -14,10 +14,10 @@
         "https://Zodiaco1999.github.io/vaper-app/favicon.ico",
         "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
         "https://Zodiaco1999.github.io/vaper-app/index.html",
-        "https://Zodiaco1999.github.io/vaper-app/main-O346GCSM.js",
+        "https://Zodiaco1999.github.io/vaper-app/main-QUEO2KND.js",
         "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest",
         "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js",
-        "https://Zodiaco1999.github.io/vaper-app/styles-UQRDMWOF.css"
+        "https://Zodiaco1999.github.io/vaper-app/styles-XSYX46KI.css"
       ],
       "patterns": []
     },
@@ -106,12 +106,12 @@
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "d68b4bdea4c05398201af24533a234b94fb70e47",
-    "https://Zodiaco1999.github.io/vaper-app/index.html": "17da595884ebb7be3518e549097fd78853d72410",
-    "https://Zodiaco1999.github.io/vaper-app/main-O346GCSM.js": "34c519990c8cac905c35a7c3b894641e4877f0fb",
+    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "8ed141c1b146d652d18c4f02387862d08b9bc529",
+    "https://Zodiaco1999.github.io/vaper-app/index.html": "474b9c10927b819a4929899cb60181defdf5d00b",
+    "https://Zodiaco1999.github.io/vaper-app/main-QUEO2KND.js": "8e3558cf31b6102b57c440c3815c40cb1f1bcb1d",
     "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest": "f72ffc816c86152c7fbd7e01cf0c2ae8f04b3bf1",
     "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "https://Zodiaco1999.github.io/vaper-app/styles-UQRDMWOF.css": "9604d65afe66a30435b24cbd06328d19c41552f6"
+    "https://Zodiaco1999.github.io/vaper-app/styles-XSYX46KI.css": "70106afeab6dd3198ddc4be78795a37baa01c8fd"
   },
   "navigationUrls": [
     {
