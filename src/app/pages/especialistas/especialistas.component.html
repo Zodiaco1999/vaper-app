@@ -1,0 +1,17 @@
+<div class="header">
+  <img src="assets/images/especialistas.svg" alt="Doctor holding heart and vape" class="image">
+  <h1>Nuestros especialistas</h1>
+  <p>Agenda una cita con un especialista de tu preferencia</p>
+</div>
+<section class="info-section">
+  @for (especilista of especialistas; track $index) {
+    <div class="info-item">
+      <a [routerLink]="especilista.link"><img [src]="especilista.foto" alt="Icon" class="info-icon"></a>
+      <div class="info-text">
+        <h3>Especilista</h3>
+        <a [routerLink]="especilista.link"><h2>{{ especilista.nombre }}</h2></a>
+        <span>{{ especilista.descripcion }}</span>
+      </div>
+    </div>
+  }
+</section>

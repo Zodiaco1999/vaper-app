@@ -1,0 +1,39 @@
+<div class="profile-container">
+  <img [src]="especialista.foto" alt="Doctor profile" class="profile-img" />
+  <h2 class="profile-name">{{ especialista.nombre }}</h2>
+  <p class="profile-title">{{ especialista.especialidad }}</p>
+
+  <div class="rating">
+    <img src="assets/images/stars.svg" alt="Yellow star" class="rating-star" />
+    <span>4.9</span>
+    <span class="rating-count">(84)</span>
+  </div>
+
+  <section class="about-section">
+    <h3>Acerca de</h3>
+    <p>{{ especialista.descripcion }}</p>
+  </section>
+
+  <div class="stats-container">
+    <div class="stat-card">
+      <p class="stat-value">15K+</p>
+      <p class="stat-label">Pacientes</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-value">
+        4.5
+        <img src="assets/images/starblue.svg" alt="Blue star" class="blue-star" />
+      </p>
+      <p class="stat-label">Calificación</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-value">{{ especialista.years }} Yrs+</p>
+      <p class="stat-label">Experiencia</p>
+    </div>
+  </div>
+
+  <a href="#" class="btn-consult">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp icon" class="whatsapp-icon" />
+    Solicitar consulta
+  </a>
+</div>

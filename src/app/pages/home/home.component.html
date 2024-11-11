@@ -1,0 +1,17 @@
+<div class="header">
+  <img src="assets/images/header-image.png" alt="Doctor holding heart and vape" class="header-image">
+  <h1>Cambia tu vida para mejor</h1>
+  <p>Agenda una cita y te ayudaremos con el problema al que te enfrentas.</p>
+</div>
+<section class="info-section">
+  <h2>Infórmate y cambia tu vida</h2>
+  @for (item of infoItems; track $index) {
+    <div class="info-item">
+      <a [routerLink]="item.link"><img [src]="item.icon" alt="Icon" class="info-icon"></a>
+      <div class="info-text">
+        <a [routerLink]="item.link"><h3>{{ item.title }}</h3></a>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  }
+</section>

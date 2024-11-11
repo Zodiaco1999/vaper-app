@@ -1,0 +1,130 @@
+// Variables de color
+$primary-color: #164194;
+$secondary-color: #00A6EA;
+$accent-color: #0065CC;
+$background-color: #EEEEEE;
+$text-color: #747F9E;
+$text-color-gray: #BDD7F2;
+$text-color-black: #313E4C;
+
+// Contenedor principal del perfil
+.profile-container {
+  margin-top: 80px;
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+// Imagen de perfil
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -50px;
+}
+
+// Nombre y título del perfil
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $primary-color;
+  margin: 10px 0 5px;
+}
+
+.profile-title {
+  color: $secondary-color;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+// Calificación con estrella
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $text-color;
+  font-size: 1rem;
+  margin-bottom: 15px;
+
+  .rating-count {
+    color: $text-color;
+    margin-left: 5px;
+  }
+}
+
+.rating-star {
+  width: 120px;
+  height: 15px;
+}
+
+// Sección de información "Acerca de"
+.about-section {
+  font-size: 0.9rem;
+  color: $text-color;
+  text-align: left;
+  margin-bottom: 20px;
+
+  h3 {
+    font-size: 1rem;
+    color: $text-color-black;
+    margin-bottom: 5px;
+  }
+}
+
+// Contenedor de estadísticas (cards)
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .stat-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+    .stat-value {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: $secondary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .blue-star {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: $text-color;
+      margin-top: 5px;
+    }
+  }
+}
+
+// Botón de solicitud de consulta
+.btn-consult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 20px;
+
+  .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+}
