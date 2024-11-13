@@ -1,0 +1,29 @@
+<div class="login-container">
+  <div class="logo">
+    <img src="assets/svg/logo-vaper-app.svg" alt="VaperApp Logo">
+  </div>
+  <div class="login-card">
+    <form>
+      <label>Nombre de usuario</label>
+      <input type="text" [formControl]="username" placeholder="Ingrese su nombre de usuario">
+
+      <label >Correo electrónico</label>
+      <input type="text" [formControl]="email" placeholder="Ingrese su Correo">
+
+      <label>Contraseña</label>
+      <input type="password" [formControl]="password" placeholder="Ingrese su Contraseña">
+
+      <label>Seleccione su genero</label>
+      <div class="checks-box">
+        <input type="checkbox" [formControl]="genre"><span>Masculino</span>
+        <input type="checkbox" [formControl]="genre"><span>Femenino</span>
+        <input type="checkbox" [formControl]="genre"><span>Otro</span>
+      </div>
+
+      <button (click)="register()" class="login-button">Crear cuenta</button>
+    </form>
+    <p class="register-text">
+     Tengo una cuenta <a routerLink="/login" class="register-link">¡Iniciar sesión!</a>
+    </p>
+  </div>
+</div>

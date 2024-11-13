@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -38,33 +39,37 @@ export class HomeComponent implements OnInit {
     }
   ];
 
+  private readonly document = inject(DOCUMENT);
+  private readonly window = this.document?.defaultView
+
   deferredPrompt: any;
   showInstallButton = false;
 
   ngOnInit() {
-    if (typeof window !== 'undefined') { // Verifica que 'window' esté disponible
-      window.addEventListener('beforeinstallprompt', (event) => {
-        event.preventDefault();
-        this.deferredPrompt = event;
-        this.showInstallButton = true;
-      });
-    }
+    this.window!.window.addEventListener('beforeinstallprompt', (event) => {
+      event.preventDefault();
+      this.deferredPrompt = event;
+      this.showInstallButton = true;
+    });
   }
 
   installApp() {
-    // Muestra el prompt de instalación
-    this.deferredPrompt.prompt();
-    // Espera la respuesta del usuario
-    this.deferredPrompt.userChoice.then((choiceResult: any) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('El usuario aceptó la instalación');
-      } else {
-        console.log('El usuario rechazó la instalación');
-      }
-      // Oculta el botón después de mostrar el prompt
+    if (this.deferredPrompt !== undefined) {
+      // Muestra el prompt de instalación
+      this.deferredPrompt.prompt();
+      // Espera la respuesta del usuario
+      this.deferredPrompt.userChoice.then((choiceResult: any) => {
+        if (choiceResult.outcome === 'accepted') {
+
+          console.log('El usuario aceptó la instalación');
+        } else {
+          console.log('El usuario rechazó la instalación');
+        }
+        // Oculta el botón después de mostrar el prompt
+        this.showInstallButton = false;
+      });
       this.deferredPrompt = null;
-      this.showInstallButton = false;
-    });
+    }
   }
 }
 

@@ -1,0 +1,21 @@
+<div class="login-container">
+  <div class="logo">
+    <img src="assets/svg/logo-vaper-app.svg" alt="VaperApp Logo">
+  </div>
+  <div class="login-card">
+    <form>
+      <label>Nombre de usuario</label>
+      <input type="text" [formControl]="username" placeholder="Ingrese su nombre de usuario">
+
+      <label>Contraseña</label>
+      <input type="password" [formControl]="password" placeholder="Ingrese su Contraseña">
+
+      <a routerLink="/restablecer" class="forgot-password">¿Olvidó su contraseña?</a>
+
+      <button (click)="login()" class="login-button">Ingresar</button>
+    </form>
+    <p class="register-text">
+      ¿No tienes una cuenta? <a routerLink="/registro" class="register-link">¡Regístrate ahora!</a>
+    </p>
+  </div>
+</div>
