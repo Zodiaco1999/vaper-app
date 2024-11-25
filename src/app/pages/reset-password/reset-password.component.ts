@@ -17,7 +17,7 @@ export class ResetPasswordComponent {
 
   reset() {
     if (this.email.value && this.validarCorreo(this.email.value)) {
-      alert('Revisa tu correo electrónico para continuar el proceso de restablecimiento')
+      alert('Revisa tu correo electrónico para continuar el proceso de restablecimiento');
       this.router.navigateByUrl('login');
     }
     else {

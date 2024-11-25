@@ -247,17 +247,32 @@ nav {
 }
 
 .checks-box {
-  display: flex;
+  display: block;
   margin-top: 8px;
+  position: relative;
+  align-items: start;
+  margin-left: -190px;
 
   input {
     transform: scale(1.5);
     margin-right: 10px;
-    margin-left: 10px;
   }
 
   span {
     font-size: 0.9rem;
     color: $text-color;
+  }
+}
+
+.check {
+  display: flex;
+}
+
+@media screen and (max-width: 43.9em)
+{
+  .login-container {
+    .login-card {
+      height: auto;
+    }
   }
 }

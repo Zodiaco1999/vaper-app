@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormControl } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -11,6 +12,7 @@ import { Router, RouterLink } from '@angular/router';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
+  authService = inject(AuthService);
   username = new FormControl('');
   password = new FormControl('');
 
@@ -22,6 +24,7 @@ export class LoginComponent {
       const pass = localStorage.getItem('password');
       if (user && pass && user === this.username.value && pass === this.password.value) {
         this.router.navigateByUrl('');
+        this.authService.isAutenticated.next(true);
       } else {
         alert('Credenciales invalidas')
       }

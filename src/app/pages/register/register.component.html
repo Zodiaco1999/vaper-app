@@ -15,9 +15,9 @@
 
       <label>Seleccione su genero</label>
       <div class="checks-box">
-        <input type="checkbox" [formControl]="genre"><span>Masculino</span>
-        <input type="checkbox" [formControl]="genre"><span>Femenino</span>
-        <input type="checkbox" [formControl]="genre"><span>Otro</span>
+        <div class="check"><input type="checkbox" [formControl]="genre"><span>Masculino</span></div>
+        <div class="check"><input type="checkbox" [formControl]="genre"><span>Femenino</span></div>
+        <div class="check"><input type="checkbox" [formControl]="genre"><span>Otro</span></div>
       </div>
 
       <button (click)="register()" class="login-button">Crear cuenta</button>
