@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1732499988330,
+  "timestamp": 1732504018762,
   "index": "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "https://Zodiaco1999.github.io/vaper-app/favicon.ico",
         "https://Zodiaco1999.github.io/vaper-app/index.csr.html",
         "https://Zodiaco1999.github.io/vaper-app/index.html",
-        "https://Zodiaco1999.github.io/vaper-app/main-C2QTAJ3S.js",
+        "https://Zodiaco1999.github.io/vaper-app/main-7UVTI6TM.js",
         "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest",
         "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js",
         "https://Zodiaco1999.github.io/vaper-app/styles-422ECHF7.css"
@@ -108,9 +108,9 @@
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-512x512.png": "c7896ab0e4da2e558015628bbd204349f458865b",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-72x72.png": "73547f4893f2a242dfc73b1ef0d31f9526e1270d",
     "https://Zodiaco1999.github.io/vaper-app/icons/icon-96x96.png": "4deaea97daeb3ef86ae45a34982aa84d29ed3322",
-    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "3a0e0a7d6671fc80f63aca1c0ceba499e75dae74",
-    "https://Zodiaco1999.github.io/vaper-app/index.html": "ff00086bc1278645031cac9566073ec75800c4e6",
-    "https://Zodiaco1999.github.io/vaper-app/main-C2QTAJ3S.js": "9fbb5df86092e8b705e09b9db4dc3194ae256360",
+    "https://Zodiaco1999.github.io/vaper-app/index.csr.html": "686d4841b63b7e2d003005d049801cee2a4b16ef",
+    "https://Zodiaco1999.github.io/vaper-app/index.html": "af7cc9513b99d1773963fa5e892f1661950b46f4",
+    "https://Zodiaco1999.github.io/vaper-app/main-7UVTI6TM.js": "6d973d0a4df9fb46d27fb7106ccb3110e4c71b49",
     "https://Zodiaco1999.github.io/vaper-app/manifest.webmanifest": "f72ffc816c86152c7fbd7e01cf0c2ae8f04b3bf1",
     "https://Zodiaco1999.github.io/vaper-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "https://Zodiaco1999.github.io/vaper-app/styles-422ECHF7.css": "b6473b10886f285fe8a6994916e1a4f1afc08159"
